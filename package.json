@@ -1,10 +1,11 @@
 {
   "name": "grocery-booking-backend",
   "version": "1.0.0",
-  "main": "dist/index.js",
+  "main": "dist/index.js",            
   "scripts": {
-    "start": "ts-node-dev src/index.ts",
-    "build": "tsc"
+    "start": "node dist/index.js",    
+    "build": "tsc",                   
+    "dev": "ts-node-dev src/index.ts" 
   },
   "dependencies": {
     "cors": "^2.8.5",
